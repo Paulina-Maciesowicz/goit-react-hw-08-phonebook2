@@ -27,7 +27,7 @@ export const App = () => {
       <Route path="/" element={<Layout />}>
         <Route index element={<HomePage />} />
         <Route
-          path="goit-react-hw-08-phonebook2/register"
+          path="/register"
           element={
             <RestrictedRoute
               redirectTo="/phonebook"
