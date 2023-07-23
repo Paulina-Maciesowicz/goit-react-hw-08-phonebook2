@@ -109,4 +109,4 @@ jsx
 2. Toate fișierele din repository sunt copiate pe server, unde proiectul este inițializat și construit înainte de a fi implementat.
 3. Dacă toți pașii sunt reușiți, versiunea de producție asamblată a fișierelor proiectului
    este trimisă la ramura gh-pages. În caz contrar, jurnalul de execuție al scriptului
-   scriptului va indica care este problema.
+   scriptului va indica care este problema..
