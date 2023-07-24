@@ -20,7 +20,12 @@ export const ContactList = () => {
       {filteredContacts.map(contact => (
         <li className={css.item} key={contact.id}>
           {contact.name} - {contact.number}
-          <button onClick={() => handleDelete(contact.id)}>Delete</button>
+          <button
+            className={css.btnDelete}
+            onClick={() => handleDelete(contact.id)}
+          >
+            Delete
+          </button>
         </li>
       ))}
     </ul>
