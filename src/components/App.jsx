@@ -24,7 +24,7 @@ export const App = () => {
     <b>Refreshing user...</b>
   ) : (
     <Routes>
-      <Route path="/phonebook" element={<Layout />}>
+      <Route path="/" element={<Layout />}>
         <Route index element={<HomePage />} />
         <Route
           path="/register"
@@ -50,6 +50,7 @@ export const App = () => {
             <PrivateRoute redirectTo="/login" component={<PhonebookPage />} />
           }
         />
+        <Route path="*" element={<HomePage />} />
       </Route>
     </Routes>
   );
