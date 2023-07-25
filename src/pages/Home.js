@@ -15,12 +15,17 @@ const styles = {
 export default function Home() {
   return (
     <div style={styles.container}>
-      <h1 style={styles.title}>
+      <img
+        // style={styles.picture}
+        src="https://i.ibb.co/8KJqMGt/Phone.png"
+        alt="phonebook"
+      />
+      {/* <h1 style={styles.title}>
         Welcome page{' '}
         <span role="img" aria-label="Greeting icon">
           💁‍♀️
         </span>
-      </h1>
+      </h1> */}
     </div>
   );
 }

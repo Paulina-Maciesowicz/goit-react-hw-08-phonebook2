@@ -11,7 +11,6 @@ export const ContactForm = () => {
     e.preventDefault();
     const name = e.target.name.value;
     const phone = e.target.number.value;
-    // const id = nanoid();
     if (contacts.find(contact => contact.name === name)) {
       alert(`${name} is already in contacts`);
       return;
