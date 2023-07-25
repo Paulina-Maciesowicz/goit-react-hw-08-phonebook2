@@ -6,12 +6,14 @@ import { PrivateRoute } from './PrivateRoute';
 import { RestrictedRoute } from './RestrictedRoute';
 import { refreshUser } from 'Redux/auth/operations';
 import { useAuth } from 'hooks';
-import css from './App.module.css';
+import css from 'components/App.module.css';
 
 const HomePage = lazy(() => import('../pages/Home'));
 const RegisterPage = lazy(() => import('../pages/Register'));
 const LoginPage = lazy(() => import('../pages/Login'));
 const PhonebookPage = lazy(() => import('../pages/Phonebook'));
+
+console.log(css);
 
 export const App = () => {
   const dispatch = useDispatch();
