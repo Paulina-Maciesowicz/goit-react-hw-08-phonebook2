@@ -17,7 +17,7 @@ export default function Home() {
     <div style={styles.container}>
       <img
         // style={styles.picture}
-        src="https://i.ibb.co/8KJqMGt/Phone.png"
+        src="https://i.ibb.co/0X772PY/Phone-Pink.png"
         alt="phonebook"
       />
       {/* <h1 style={styles.title}>
